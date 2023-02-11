@@ -1,0 +1,91 @@
+.navbar {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 50px;
+    margin-left: 16px;
+}
+
+.carousel-inner {
+    max-height: 100vh;
+    z-index: 1;
+    margin-top: 61px;
+}
+
+.header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.nav li a {
+    color: #003399;
+}
+
+.nav-item .nav-link.active {
+    background-color: #003399;
+}
+
+.games .nav .nav-link.active {
+    background-color: #fff;
+    color: #003399;
+}
+
+.nav button, h5 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.row {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.button {
+    border-radius: 15px;
+    padding: 6px ;
+    background-color: #003399;
+    color: #fff;
+}
+
+.games img {
+    border-radius: 15px;
+}
+
+.games {
+    background-color: #121314;
+}
+
+.btn {
+    background-color: #003399;
+    color: #fff;
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-toggler {
+        display: flex;
+    }
+
+    .nav button {
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 1023px) and (min-width:768px) {
+    .nav {
+        justify-content: center;
+    }
+    
+    
+}
